@@ -3,7 +3,7 @@ You can think of it as a library with methods to create and manage infrastructur
 
 #https://registry.terraform.io/providers/hashicorp/google/latest/docs
 provider "google" {
-  project     = "my-project-id"
+  project     = "engaged-parsec-440314-j0"
   region      = "us-central1"
 }
 
@@ -18,7 +18,11 @@ You need to provide a bucket name and a prefix.*/
 #https://developer.hashicorp.com/terraform/language/backend/gcs
 terraform {
   backend "gcs" {
-    bucket  = "tf-state-prod"
+    bucket  = "bucket1-ao"
     prefix  = "terraform/state"
   }
 }
+
+
+
+

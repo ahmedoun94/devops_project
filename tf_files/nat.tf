@@ -12,7 +12,7 @@ resource "google_compute_router_nat" "nat" {
 /*Ce bloc sélectionne un sous-réseau (google_compute_subnetwork.subnet) pour le NAT.
 ALL_IP_RANGES signifie que toutes les IP de ce sous-réseau peuvent accéder au NAT.*/
   subnetwork {
-    name                    = google_compute_subnetwork.subnet.id
+    name                    = google_compute_subnetwork.private.id
     source_ip_ranges_to_nat = ["ALL_IP_RANGES"]
   }
 

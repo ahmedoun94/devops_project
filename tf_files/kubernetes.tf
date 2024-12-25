@@ -38,7 +38,7 @@ control plane, owever you can disable it for nodes. */
   }
 
   workload_identity_config {
-    workload_pool = "MyFirstProject.svc.id.goog" #need to replace devops-v4 with your project ID
+    workload_pool = "engaged-parsec-440314-j0.svc.id.goog" #need to replace devops-v4 with your project ID
   }
 
   ip_allocation_policy {
