@@ -1,5 +1,3 @@
-/*It will be used with the NAT gateway to allow VMs without public IP addresses to access internet. 
-For example, Kubernetes nodes will be able to pull docker images from the docker hub*/
 
 #https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_router
 
